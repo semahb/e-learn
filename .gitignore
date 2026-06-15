@@ -1,0 +1,73 @@
+# ===========================
+# Spring Boot / Java
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Spring Boot
+spring-shell.log
+
+# ===========================
+# Angular / Node
+# ===========================
+node_modules/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+.angular/cache/
+
+# npm
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# ===========================
+# IDEs
+# ===========================
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.*
+*.env
+application-local.properties
+application-local.yml
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+*.log
